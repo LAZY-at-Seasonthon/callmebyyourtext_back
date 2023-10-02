@@ -3,6 +3,7 @@ from login.models import User
 from django.conf import settings
 from django.utils import timezone
 
+
 class Question(models.Model):
     questionId = models.AutoField(primary_key=True)
     question = models.TextField()
